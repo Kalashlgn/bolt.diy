@@ -18,6 +18,8 @@ export default function FeaturesTab() {
     setAutoSelectTemplate,
     enableContextOptimization,
     contextOptimizationEnabled,
+    autoApproveEnabled,
+    enableAutoApprove,
   } = useSettings();
 
   const handleToggle = (enabled: boolean) => {
